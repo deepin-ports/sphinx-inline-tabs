@@ -3,7 +3,7 @@
 export PYBUILD_DISABLE := test
 
 %:
-	dh $@ --with python3 --buildsystem=pybuild
+	dh $@ --buildsystem=pybuild
 
 execute_before_dh_installdocs:
 	PYTHONPATH=src sphinx-build docs html

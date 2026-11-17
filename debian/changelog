@@ -1,3 +1,29 @@
+sphinx-inline-tabs (2025.12.21.14-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 2025.12.21.14 compatible with Flit 4
+  * Use python3-flit as build engine instead of the whole "flit" toolbox
+  * Drop patch applied upstream
+  * Rewrite d/watch in v5 format
+  * Drop "Rules-Requires-Root: no": it is the default now
+  * Bump Standards-Version to 4.7.4, drop Priority: tag
+
+ -- Alexandre Detiste <tchet@debian.org>  Thu, 24 Sep 2026 22:15:47 +0200
+
+sphinx-inline-tabs (2023.4.21-3) unstable; urgency=medium
+
+  * Team upload.
+  * Fix docutils 0.22 compatibility.
+
+ -- Colin Watson <cjwatson@debian.org>  Mon, 13 Oct 2025 17:24:43 +0100
+
+sphinx-inline-tabs (2023.4.21-2) unstable; urgency=medium
+
+  * Team Upload
+  * Drop python3-tomli build dependency
+
+ -- Alexandre Detiste <tchet@debian.org>  Sat, 26 Jul 2025 02:02:52 +0200
+
 sphinx-inline-tabs (2023.4.21-1) unstable; urgency=medium
 
   * New upstream release
